@@ -54,6 +54,7 @@ bool check(LinkedList* pList)
 		pBackTravel = pBackTravel->getNextLink();
 	}
 
+	delete pReversedList;
 
 	return true;
 
